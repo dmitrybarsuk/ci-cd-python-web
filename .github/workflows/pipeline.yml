@@ -7,7 +7,7 @@ env:
 
 jobs:
   lint:
-    runs-on: ubuntu-18.02
+    runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout@v2
       - name: Setup Python environment
